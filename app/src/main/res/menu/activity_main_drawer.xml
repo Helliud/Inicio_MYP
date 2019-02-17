@@ -22,7 +22,23 @@
 
     </group>
 
+
     <group android:id="@+id/separador1" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/botonMaestros"
+            android:icon="@drawable/maestro"
+            android:title="Crear un aula"
+            />
+        <item
+            android:id="@+id/botonPadre"
+            android:icon="@drawable/padres"
+            android:title="Unirse a un aula" />
+
+
+    </group>
+
+    <group android:id="@+id/separador2" android:checkableBehavior="single">
         <item
             android:id="@+id/nav_cerrarSesion"
             android:icon="@drawable/logout"
